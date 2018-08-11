@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Update">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter username for update:"
+        android:gravity="center"
+        />
+    <EditText
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/up_et_id"
+        android:hint="Username For Update"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_marginRight="50dp"
+        android:drawableLeft="@drawable/lock" />
+    <Button
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/up_btn_id"
+        android:text="Username for update"
+        android:textAllCaps="false"
+        android:drawableLeft="@drawable/lock"
+        android:layout_marginBottom="50dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <EditText
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/up_et_name"
+        android:hint="Enter Name"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_marginRight="50dp"
+        android:drawableLeft="@drawable/lock" />
+    <EditText
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/up_et_email"
+        android:hint="Enter Email"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+
+        android:layout_marginRight="50dp"
+        android:drawableLeft="@drawable/lock" />
+    <EditText
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/up_et_username"
+        android:hint="Enter Username"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/colorPrimaryDark"
+
+        android:layout_marginRight="50dp"
+        android:drawableLeft="@drawable/lock" />
+    <EditText
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/up_et_password"
+        android:hint="Enter Password"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/colorPrimaryDark"
+
+        android:layout_marginRight="50dp"
+        android:drawableLeft="@drawable/lock" />
+
+    <EditText
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/up_et_phone"
+        android:hint="Enter Phone"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+
+        android:layout_marginRight="50dp"
+        android:drawableLeft="@drawable/lock" />
+    <EditText
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/up_et_gender"
+        android:hint="Enter Gender"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginRight="50dp"
+        android:drawableLeft="@drawable/lock" />
+
+
+        <Button
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/up_btn"
+            android:text="Update Data"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/lock"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

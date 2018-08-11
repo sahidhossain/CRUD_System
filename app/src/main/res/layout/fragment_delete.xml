@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Delete">
+
+    <EditText
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/del_et"
+        android:hint="Enter Username to delete"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginRight="50dp"
+        android:drawableLeft="@drawable/lock" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/del_btn"
+            android:text="Delete Data"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/lock"
+            />
+    </LinearLayout>
+</LinearLayout>
